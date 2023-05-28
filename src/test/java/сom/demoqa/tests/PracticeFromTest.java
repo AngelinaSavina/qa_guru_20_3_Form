@@ -3,10 +3,8 @@ package сom.demoqa.tests;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Browsers.CHROME;
 import static com.codeborne.selenide.Condition.text;
@@ -29,7 +27,7 @@ public class PracticeFromTest {
     }
 
     @Test
-    void SuccessTest(){
+    void successTest(){
 
         String firstName = "Angelina";
         String lastName = "Savina";
